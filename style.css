@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient(180deg,#142f3a,#275a6be2,#2c5364)
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    background-color:#0f5f6fd6;
+    color: rgb(242, 243, 245);
+}
+  nav{
+    display: flex;
+    justify-content:right;
+    background: #021922;
+    padding: 10px;
+    gap:30px;
+    text-decoration: none;
+    font-weight: bold;
+  } 
+  nav a:hover
+  {
+    color: #024c59;
+  } 
+  main{
+    padding: 15px;
+  }
+  section h2{
+    margin-bottom: 15px;
+    color:#01161b;
+    font-size: 36px;
+    
+  }
+  .p4{
+    color: rgb(178, 232, 254);
+  }
+  p{
+    color: #e4e4e4;
+    
+  }
+  section p{
+    margin-bottom: 15px;
+  }
+  button{
+    background: #0a9c8b;
+    color: rgb(209, 210, 211);
+    border:none;
+    padding: 5px 9px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: o.3s;
+  }
+  button:hover{
+    background: #142f3a;
+  }
+  .section img{
+   margin-top: 15PX;
+   border-radius: 12PX;
+   box-shadow: 0 2PX 6PX rgba(116, 238, 234, 0.747);
+  }
+  .sectionp{
+    margin: 40px auto;
+    text-align: center;
+  }
+  .section h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #022736;
+  }
+  .skill-box{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .skill-box  .tags samp {
+display: inline-block;
+background-color: #02425d;
+color: #faffff;
+padding: 20px 10px;
+border-radius: 8px;
+font-size: 16px;
+box-shadow: 0 4px 8px;
+cursor: default;
+  }
+.skill-box .tags samp:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px;
+}
+  
+  .p5{
+   margin-top: 15PX;
+   border-radius: 12PX;
+   box-shadow: 0 2PX 6PX rgb(154, 217, 241);
+
+  }
+ 
+  .tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap:145px ;
+  }
+  .section{
+    padding: 40px;
+    text-align: center;
+  }
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color:#011b24;
+    
+    
+}
+.projects-container{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #02415c;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px;
+    width: 200px;
+    transition:transform 0.3s, box-shadow 0.3s;
+}
+.card.hover{
+    transform: translate(-5px);
+    box-shadow: 0 8px 20px;
+}
+form{
+    margin-top: 20px;
+}
+input,textarea{
+    width: 50%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #000000;
+}
+button[type="submit"]{
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background: #033e56;
+    color: rgba(233, 237, 240, 0.967);
+    padding: 15px;
+    margin-top: 30px;
+}
