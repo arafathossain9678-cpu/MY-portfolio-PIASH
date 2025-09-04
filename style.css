@@ -72,6 +72,7 @@ h1{
     margin-bottom: 30px;
     color: #022736;
   }
+  
   .skill-box{
     display: flex;
     justify-content: center;
@@ -118,9 +119,14 @@ cursor: default;
 }
 .projects-container{
     display: flex;
-    justify-content: right;
+    justify-content:center;
     gap: 20px;
     flex-wrap: wrap;
+}
+.projects-title{
+  width: 100%;
+  text-align: center;
+
 }
 .card{
     background-color: #02415c;
