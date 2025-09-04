@@ -104,7 +104,7 @@ cursor: default;
   .tags{
     display: flex;
     flex-wrap: wrap;
-    gap:145px ;
+    gap:20px ;
   }
   .section{
     padding: 40px;
