@@ -15,20 +15,20 @@ h1{
     color: rgb(242, 243, 245);
 }
   nav{
-    display: flex;
+    display:flex;
     justify-content:right;
-    background: #021922;
+    background: #02212e;
     padding: 10px;
     gap:30px;
-    text-decoration: none;
+    text-decoration:none;
     font-weight: bold;
   } 
   nav a:hover
   {
-    color: #024c59;
+    color: #f1f3f3;
   } 
   main{
-    padding: 15px;
+    padding: 20px;
   }
   section h2{
     margin-bottom: 15px;
@@ -51,7 +51,7 @@ h1{
     color: rgb(209, 210, 211);
     border:none;
     padding: 5px 9px;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
     transition: o.3s;
   }
@@ -86,7 +86,7 @@ color: #faffff;
 padding: 20px 10px;
 border-radius: 8px;
 font-size: 16px;
-box-shadow: 0 4px 8px;
+box-shadow: 0 8px 8px;
 cursor: default;
   }
 .skill-box .tags samp:hover {
@@ -138,7 +138,7 @@ cursor: default;
     transition:transform 0.3s, box-shadow 0.3s;
 }
 .card.hover{
-    transform: translate(-5px);
+    transform: translate(-3px);
     box-shadow: 0 8px 20px;
 }
 form{
